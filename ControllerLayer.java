@@ -19,7 +19,7 @@ public class ControllerLayer {
 	public String home() {
 		return "home";
 	}
-	
+	//jjjjj
 	// Process the calculation and redirect to result.html page and 
 	@PostMapping("/calculate")
 	public String calculateMethod(@RequestParam("num1") double n1, @RequestParam("num2") double n2, @RequestParam("operation") String operation, Model model) {
